@@ -8,7 +8,7 @@ use warnings;
 use Class::Utils qw(set_params);
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -117,6 +117,6 @@ To Mario for his ideas.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
