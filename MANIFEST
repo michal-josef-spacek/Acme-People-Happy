@@ -18,3 +18,4 @@ t/People-Happy/00-use.t
 t/People-Happy/01-version.t
 t/People-Happy/02-pod_coverage.t
 t/People-Happy/03-pod.t
+t/People-Happy/04-new.t
