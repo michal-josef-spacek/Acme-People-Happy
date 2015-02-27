@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 671807e4fa675637e4c9f0a8b2a03fd0845d7a48 Changes
+SHA1 a5af94dea805732ff8168241f0f1f36d63f37e80 Happy.pm
+SHA1 8cde3fb5d525ac7b32732c409fc9e68cbb86ecf0 MANIFEST
+SHA1 f0702c017322bde03f6539eea222f8d6bf55e818 META.yml
+SHA1 9fefda46502e5c90195e0ad5a8f6ae60fd35bc06 Makefile.PL
+SHA1 af704027ca19ed3413fac242a1d9796a3303c9dd README
+SHA1 dbe401b374effed6fa24589f67422539a741e21c examples/ex1.pl
+SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
+SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
+SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
+SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
+SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
+SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
+SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 e8a5864031ded5d5484506cd0dbf40821b2b920c t/People-Happy/00-use.t
+SHA1 086785dd1d07ea9ed304455124769bb26ab8f67d t/People-Happy/01-version.t
+SHA1 a40530045adeddec3c20799966bd53fe3aa3c000 t/People-Happy/02-pod_coverage.t
+SHA1 13b61f3778113dd2471772b8d95cb99a715e9ef2 t/People-Happy/03-pod.t
+SHA1 f9f8b4530965fcd24ee350e8781b87df9a526330 t/People-Happy/04-new.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJU8P+eAAoJEJe+XXKaIuTlJysH/17qp0p8OFSB7rtcm8WYXGY/
+ecTxFQG1zLRg8EGtfU6AfXwPwApwtzIJC80juTx6s1AwlwglX26/QRTxCcumSJTb
+w4yPZcbEYZ42o0VMBHOHZjjn+iW7viWncUPegbb8rHEwWKd226cHH7xiLDb5iclx
+0XVs9cZb8j92sTiMUElanVheoq/PerPu2WBFBNrR+Nw4Aw8FcEEwA4jmnfKxdyn8
+cfFGw+Znh8qrhlXj8FCZ3t8YC3we7WrSB0PGsdErYbXnnRu6Masdm7k0Wunwxtl6
+547lI97uZWGGin7giNDiggpZtcHunzHAWujo4B1Y/TSLBqHFL1xOqNirhYu297E=
+=78xh
+-----END PGP SIGNATURE-----
