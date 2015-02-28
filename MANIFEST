@@ -15,8 +15,8 @@ MANIFEST			This list of files
 META.yml
 README
 SIGNATURE
-t/People-Happy/00-use.t
-t/People-Happy/01-version.t
-t/People-Happy/02-pod_coverage.t
-t/People-Happy/03-pod.t
-t/People-Happy/04-new.t
+t/Acme-People-Happy/00-use.t
+t/Acme-People-Happy/01-version.t
+t/Acme-People-Happy/02-pod_coverage.t
+t/Acme-People-Happy/03-pod.t
+t/Acme-People-Happy/04-new.t

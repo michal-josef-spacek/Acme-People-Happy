@@ -19,7 +19,7 @@ license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: People-Happy
+name: Acme-People-Happy
 no_index:
   directory:
     - examples
@@ -29,8 +29,8 @@ requires:
   Class::Utils: 0.05
   perl: 5.6.0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=People-Happy
-  homepage: https://github.com/tupinek/People-Happy
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Acme-People-Happy
+  homepage: https://github.com/tupinek/Acme-People-Happy
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/People-Happy
+  repository: git://github.com/tupinek/Acme-People-Happy
 version: '0.02'

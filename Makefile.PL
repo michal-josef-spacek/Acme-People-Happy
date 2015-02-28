@@ -9,14 +9,14 @@ use inc::Module::Install;
 abstract 'Does people happy?';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
-name 'People-Happy';
+name 'Acme-People-Happy';
 readme_from 'Happy.pm';
 requires 'Class::Utils' => 0.05;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=People-Happy';
-resources 'homepage' => 'https://github.com/tupinek/People-Happy';
-resources 'repository' => 'git://github.com/tupinek/People-Happy';
+	'?Name=Acme-People-Happy';
+resources 'homepage' => 'https://github.com/tupinek/Acme-People-Happy';
+resources 'repository' => 'git://github.com/tupinek/Acme-People-Happy';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.07;
 test_requires 'Test::More' => 0;

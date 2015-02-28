@@ -1,9 +1,9 @@
 NAME
-    People::Happy - Does people happy?
+    Acme::People::Happy - Does people happy?
 
 SYNOPSIS
-     use People::Happy;
-     my $obj = People::Happy->new;
+     use Acme::People::Happy;
+     my $obj = Acme::People::Happy->new;
      my $text = $obj->are_you_happy;
      my $text = $obj->everybody;
 
@@ -29,13 +29,13 @@ EXAMPLE
      use warnings;
 
      # Modules.
-     use People::Happy;
+     use Acme::People::Happy;
 
      # Object.
-     my $people = People::Happy->new;
+     my $people = Acme::People::Happy->new;
 
      # Are you happy?
-     print $people->are_you_happy."\n"; 
+     print $people->are_you_happy."\n";
 
      # Output like:
      # Yes, i'm.
@@ -44,7 +44,7 @@ DEPENDENCIES
     Class::Utils.
 
 REPOSITORY
-    <https://github.com/tupinek/People-Happy>
+    <https://github.com/tupinek/Acme-People-Happy>
 
 AUTHOR
     Michal Špaček <mailto:skim@cpan.org>

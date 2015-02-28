@@ -1,4 +1,4 @@
-package People::Happy;
+package Acme::People::Happy;
 
 # Pragmas.
 use strict;
@@ -44,12 +44,12 @@ __END__
 
 =head1 NAME
 
-People::Happy - Does people happy?
+Acme::People::Happy - Does people happy?
 
 =head1 SYNOPSIS
 
- use People::Happy;
- my $obj = People::Happy->new;
+ use Acme::People::Happy;
+ my $obj = Acme::People::Happy->new;
  my $text = $obj->are_you_happy;
  my $text = $obj->everybody;
 
@@ -81,13 +81,13 @@ People::Happy - Does people happy?
  use warnings;
 
  # Modules.
- use People::Happy;
+ use Acme::People::Happy;
 
  # Object.
- my $people = People::Happy->new;
+ my $people = Acme::People::Happy->new;
 
  # Are you happy?
- print $people->are_you_happy."\n"; 
+ print $people->are_you_happy."\n";
 
  # Output like:
  # Yes, i'm.
@@ -98,7 +98,7 @@ L<Class::Utils>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/People-Happy>
+L<https://github.com/tupinek/Acme-People-Happy>
 
 =head1 AUTHOR
 

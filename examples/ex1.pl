@@ -5,13 +5,13 @@ use strict;
 use warnings;
 
 # Modules.
-use People::Happy;
+use Acme::People::Happy;
 
 # Object.
-my $people = People::Happy->new;
+my $people = Acme::People::Happy->new;
 
 # Are you happy?
-print $people->are_you_happy."\n"; 
+print $people->are_you_happy."\n";
 
 # Output like:
 # Yes, i'm.

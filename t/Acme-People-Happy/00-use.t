@@ -9,8 +9,8 @@ use Test::NoWarnings;
 BEGIN {
 
 	# Test.
-	use_ok('People::Happy');
+	use_ok('Acme::People::Happy');
 }
 
 # Test.
-require_ok('People::Happy');
+require_ok('Acme::People::Happy');
