@@ -9,20 +9,26 @@ SYNOPSIS
      my $text = $obj->everybody;
 
 METHODS
-    *       "new()"
+  "new"
+     my $obj = Acme::People::Happy->new;
 
-             Constructor.
-             Returns object.
+    Constructor.
 
-    *       "are_you_happy()"
+    Returns instance of object.
 
-             Are you happy question?
-             Returns answer.
+  "are_you_happy"
+     my $text = $obj->are_you_happy;
 
-    *       "everybody()"
+    Are you happy question?
 
-             Everybody?
-             Returns answer.
+    Returns answer.
+
+  "everybody"
+     my $text = $obj->everybody;
+
+    Everybody?
+
+    Returns answer.
 
 EXAMPLE
      use strict;

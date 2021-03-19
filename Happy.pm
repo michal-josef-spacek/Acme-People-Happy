@@ -54,24 +54,29 @@ Acme::People::Happy - Does people happy?
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item * C<new()>
+ my $obj = Acme::People::Happy->new;
 
- Constructor.
- Returns object.
+Constructor.
 
-=item * C<are_you_happy()>
+Returns instance of object.
 
- Are you happy question?
- Returns answer.
+=head2 C<are_you_happy>
 
-=item * C<everybody()>
+ my $text = $obj->are_you_happy;
 
- Everybody?
- Returns answer.
+Are you happy question?
 
-=back
+Returns answer.
+
+=head2 C<everybody>
+
+ my $text = $obj->everybody;
+
+Everybody?
+
+Returns answer.
 
 =head1 EXAMPLE
 
