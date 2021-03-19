@@ -47,6 +47,7 @@ Acme::People::Happy - Does people happy?
 =head1 SYNOPSIS
 
  use Acme::People::Happy;
+
  my $obj = Acme::People::Happy->new;
  my $text = $obj->are_you_happy;
  my $text = $obj->everybody;

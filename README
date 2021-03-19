@@ -3,6 +3,7 @@ NAME
 
 SYNOPSIS
      use Acme::People::Happy;
+
      my $obj = Acme::People::Happy->new;
      my $text = $obj->are_you_happy;
      my $text = $obj->everybody;
