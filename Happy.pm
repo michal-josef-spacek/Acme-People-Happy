@@ -1,10 +1,8 @@
 package Acme::People::Happy;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 
 # Version.
@@ -76,11 +74,9 @@ Acme::People::Happy - Does people happy?
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Acme::People::Happy;
 
  # Object.

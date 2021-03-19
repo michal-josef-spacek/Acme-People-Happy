@@ -24,11 +24,9 @@ METHODS
              Returns answer.
 
 EXAMPLE
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Acme::People::Happy;
 
      # Object.
