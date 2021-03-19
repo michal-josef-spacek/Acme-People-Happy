@@ -94,7 +94,7 @@ L<Class::Utils>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Acme-People-Happy>
+L<https://github.com/michal-josef-spacek/Acme-People-Happy>
 
 =head1 AUTHOR
 
