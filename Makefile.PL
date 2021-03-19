@@ -17,8 +17,7 @@ readme_from 'Happy.pm';
 recursive_author_tests('xt');
 requires 'Class::Utils' => 0.05;
 requires 'perl' => '5.6.0';
-resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=Acme-People-Happy';
+resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Acme-People-Happy/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Acme-People-Happy';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Acme-People-Happy';
 test_requires 'English' => 0;
